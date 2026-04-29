@@ -2,9 +2,46 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ZombieFactory.sol": {
-      "lastModificationDate": 1777494021066,
-      "contentHash": "8e3cda8e507c3f7d1503fff1ada59d01",
+      "lastModificationDate": 1777498383486,
+      "contentHash": "d39ceffbdcc99ed01fab2ae4b9fa65c7",
       "sourceName": "contracts/ZombieFactory.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ZombieFactory"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ERC721.sol": {
+      "lastModificationDate": 1777498383250,
+      "contentHash": "473007cee681202802d606e81218f542",
+      "sourceName": "contracts/ERC721.sol",
       "solcConfig": {
         "version": "0.8.19",
         "settings": {
@@ -33,7 +70,227 @@
         "^0.8.19"
       ],
       "artifacts": [
-        "ZombieFactory"
+        "ERC721"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ZombieOwnership.sol": {
+      "lastModificationDate": 1777498383698,
+      "contentHash": "3a21d6376ed05443fee4bc856b8827fb",
+      "sourceName": "contracts/ZombieOwnership.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieAttack.sol",
+        "./ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ZombieOwnership"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ZombieAttack.sol": {
+      "lastModificationDate": 1777498383418,
+      "contentHash": "32e9f68118a89456f818f00b856775ad",
+      "sourceName": "contracts/ZombieAttack.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ZombieAttack"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ZombieHelper.sol": {
+      "lastModificationDate": 1777498383630,
+      "contentHash": "f8da6f2a60bd074ebd3a186b36aa61ed",
+      "sourceName": "contracts/ZombieHelper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieFeeding.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ZombieHelper"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/ZombieFeeding.sol": {
+      "lastModificationDate": 1777498383562,
+      "contentHash": "81ee2d0d8f6968b80fb80ead678389b0",
+      "sourceName": "contracts/ZombieFeeding.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieFactory.sol",
+        "./KittyInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ZombieFeeding"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/KittyInterface.sol": {
+      "lastModificationDate": 1777498383290,
+      "contentHash": "0772ea2bd648c97e04fc4e68d649990f",
+      "sourceName": "contracts/KittyInterface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "KittyInterface"
+      ]
+    },
+    "/home/administrator/projects/moringa-artificial-intelligence-course/capstone/contracts/Ownable.sol": {
+      "lastModificationDate": 1777498383354,
+      "contentHash": "d385250e71468441642c9578d8cf69b0",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "Ownable"
       ]
     }
   }
